@@ -1,0 +1,77 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "register;register-successful-with-mobile-number",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Register Successful with mobile number",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "On the register page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:17"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 100444554599,
+              "error_message": "Error: function timed out, ensure the promise resolves within 100000 milliseconds\n    at Timeout.<anonymous> (D:\\Test\\Amazon-web-automated-test\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Fill the register form",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:22"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Submit Verify Mobile number",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "On the Verify page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:38"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "register",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Register",
+    "tags": [],
+    "uri": "features\\register.feature"
+  }
+]

@@ -1,0 +1,2048 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "register;register_01-(normal)",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Register_01 (normal)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "On the register page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5820846600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Regis fill valid name",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 368634599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Regis fill valid mobile",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 314076100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Regis fill valid password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 318738900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Regis fill valid re-password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 248401299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Regis submit Verify",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1277904500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Change to Verify page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1407073500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "register;register_02-(normal)",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Register_02 (normal)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "On the register page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5478638800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Regis fill valid name",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 401265600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Regis fill valid email",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 400562999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Regis fill valid password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 302303500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Regis fill valid re-password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 271922500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "Regis submit Verify",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1759236600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Change to Verify page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1633608899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "register;register_03-(abnormal)",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Register_03 (abnormal)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "On the register page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6524856700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "Regis fill blank name",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 326318200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "Regis fill blank mobile-email",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 299158999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "Regis fill blank password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 297708199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "Regis fill blank re-password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 248978299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Regis submit Verify",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 827822700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Regis all blank alert",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1879143499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "register;register_04-(abnormal)",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Register_04 (abnormal)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "On the register page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7078340100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "Regis fill blank name",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 311960500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "Regis fill valid mobile",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 337574500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "Regis fill valid password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 310290899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "Regis fill valid re-password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 269006500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "Regis submit Verify",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 343922100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "Regis name alert",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1340981100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "register;register_05-(abnormal)",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Register_05 (abnormal)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 40,
+            "name": "On the register page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7464827700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "Regis fill blank name",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 294288300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "Regis fill valid email",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 416387500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "Regis fill valid password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 281777499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "Regis fill valid re-password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 289069799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "Regis submit Verify",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 341831000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "Regis name alert",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1566273000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "register;register_06-(abnormal)",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Register_06 (abnormal)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 49,
+            "name": "On the register page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8257799299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "Regis fill valid name",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 343892200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "Regis fill blank mobile-email",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 243556199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "Regis fill valid password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 308112900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "Regis fill valid re-password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 274134799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "Regis submit Verify",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 360021600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "Regis blank mobile-email alert",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:132"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1746338199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "register;register_07-(abnormal)",
+        "keyword": "Scenario",
+        "line": 57,
+        "name": "Register_07 (abnormal)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 58,
+            "name": "On the register page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7782729700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 59,
+            "name": "Regis fill valid name",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 364860799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "Regis fill valid mobile",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 323089699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "Regis fill blank password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 269675300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "Regis fill valid re-password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 251771200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 63,
+            "name": "Regis submit Verify",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 305901700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 64,
+            "name": "Regis blank password alert",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:152"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1568231800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "register;register_08-(abnormal)",
+        "keyword": "Scenario",
+        "line": 66,
+        "name": "Register_08 (abnormal)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 67,
+            "name": "On the register page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6496762900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 68,
+            "name": "Regis fill valid name",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 411307399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "Regis fill valid email",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 359470199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "Regis fill blank password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 259759200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 71,
+            "name": "Regis fill valid re-password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 254166400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 72,
+            "name": "Regis submit Verify",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 383008699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 73,
+            "name": "Regis blank password alert",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:152"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1324595300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "register;register_09-(abnormal)",
+        "keyword": "Scenario",
+        "line": 75,
+        "name": "Register_09 (abnormal)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 76,
+            "name": "On the register page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7083806400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 77,
+            "name": "Regis fill valid name",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 356506300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 78,
+            "name": "Regis fill valid mobile",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 317036999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 79,
+            "name": "Regis fill valid password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 282004000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "Regis fill blank re-password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 261204400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 81,
+            "name": "Regis submit Verify",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 308437699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 82,
+            "name": "Regis re-password missing alert",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1732631200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "register;register_10-(abnormal)",
+        "keyword": "Scenario",
+        "line": 84,
+        "name": "Register_10 (abnormal)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 85,
+            "name": "On the register page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7528403699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 86,
+            "name": "Regis fill valid name",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 344616300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 87,
+            "name": "Regis fill valid email",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 314885500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 88,
+            "name": "Regis fill valid password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 297424500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 89,
+            "name": "Regis fill blank re-password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 248599399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 90,
+            "name": "Regis submit Verify",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 312593199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 91,
+            "name": "Regis re-password missing alert",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1598864499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "register;register_13-(normal)",
+        "keyword": "Scenario",
+        "line": 93,
+        "name": "Register_13 (normal)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 94,
+            "name": "On the register page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6505364999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 95,
+            "name": "Regis fill not Eng name",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 396434099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 96,
+            "name": "Regis fill valid mobile",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 349465799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 97,
+            "name": "Regis fill valid password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 286822899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 98,
+            "name": "Regis fill valid re-password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 255143199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 99,
+            "name": "Regis submit Verify",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2540858800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 100,
+            "name": "Change to Verify page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1629284799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "register;register_14-(normal)",
+        "keyword": "Scenario",
+        "line": 102,
+        "name": "Register_14 (normal)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 103,
+            "name": "On the register page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6921539300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 104,
+            "name": "Regis fill not Eng name",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 331786200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 105,
+            "name": "Regis fill valid email",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 318256600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 106,
+            "name": "Regis fill valid password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 265984600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 107,
+            "name": "Regis fill valid re-password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 248747100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 108,
+            "name": "Regis submit Verify",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1963399799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 109,
+            "name": "Change to Verify page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1311967000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "register;register_15-(normal)",
+        "keyword": "Scenario",
+        "line": 111,
+        "name": "Register_15 (normal)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 112,
+            "name": "On the register page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6306843000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 113,
+            "name": "Regis fill special letter name",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 346807199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 114,
+            "name": "Regis fill valid mobile",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 282955199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 115,
+            "name": "Regis fill valid password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 269134000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 116,
+            "name": "Regis fill valid re-password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 242495699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 117,
+            "name": "Regis submit Verify",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1194891199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 118,
+            "name": "Change to Verify page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1239599600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "register;register_16-(normal)",
+        "keyword": "Scenario",
+        "line": 120,
+        "name": "Register_16 (normal)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 121,
+            "name": "On the register page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6072513199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 122,
+            "name": "Regis fill special letter name",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 352780400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 123,
+            "name": "Regis fill valid email",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 287809600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 124,
+            "name": "Regis fill valid password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 281059000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 125,
+            "name": "Regis fill valid re-password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 246674100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 126,
+            "name": "Regis submit Verify",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1196040899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 127,
+            "name": "Change to Verify page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 994981799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "register;register_17-(abnormal)",
+        "keyword": "Scenario",
+        "line": 129,
+        "name": "Register_17 (abnormal)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 130,
+            "name": "On the register page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5953256399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 131,
+            "name": "Regis fill valid name",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 340583100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 132,
+            "name": "Regis fill not real mobile",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 303597999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 133,
+            "name": "Regis fill valid password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 247864700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 134,
+            "name": "Regis fill valid re-password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 236714800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 135,
+            "name": "Regis submit Verify",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1331752200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 136,
+            "name": "Regis invalid mobile-email alert",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:142"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10047162600,
+              "error_message": "TimeoutError: Waiting for at least one element to be located By(css selector, *[id=\"auth-email-missing-alert\"])\nWait timed out after 10046ms\n    at D:\\Test\\Amazon-web-automated-test\\node_modules\\selenium-webdriver\\lib\\webdriver.js:911:22\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "register;register_18-(abnormal)",
+        "keyword": "Scenario",
+        "line": 138,
+        "name": "Register_18 (abnormal)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 139,
+            "name": "On the register page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5038796100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 140,
+            "name": "Regis fill valid name",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 331830100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 141,
+            "name": "Regis fill not real email",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 301730899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 142,
+            "name": "Regis fill valid password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 265051100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 143,
+            "name": "Regis fill valid re-password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 253728700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 144,
+            "name": "Regis submit Verify",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 303949900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 145,
+            "name": "Regis invalid mobile-email alert",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:142"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1094072400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "register;register_19-(abnormal)",
+        "keyword": "Scenario",
+        "line": 147,
+        "name": "Register_19 (abnormal)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 148,
+            "name": "On the register page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5195413800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 149,
+            "name": "Regis fill valid name",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 335728600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 150,
+            "name": "Regis fill valid mobile",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 317580600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 151,
+            "name": "Regis fill less password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 260197899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 152,
+            "name": "Regis fill valid re-password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 275129300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 153,
+            "name": "Regis submit Verify",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 768698700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 154,
+            "name": "Regis less password alert",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1273891400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "register;register_20-(abnormal)",
+        "keyword": "Scenario",
+        "line": 156,
+        "name": "Register_20 (abnormal)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 157,
+            "name": "On the register page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5267653200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 158,
+            "name": "Regis fill valid name",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 297091899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 159,
+            "name": "Regis fill valid email",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 325613799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 160,
+            "name": "Regis fill less password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 264875599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 161,
+            "name": "Regis fill valid re-password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 259732900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 162,
+            "name": "Regis submit Verify",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 296691400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 163,
+            "name": "Regis less password alert",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1414404799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "register;register_21-(abnormal)",
+        "keyword": "Scenario",
+        "line": 165,
+        "name": "Register_21 (abnormal)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 166,
+            "name": "On the register page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6138970300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 167,
+            "name": "Regis fill valid name",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 315734200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 168,
+            "name": "Regis fill valid mobile",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 300872600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 169,
+            "name": "Regis fill valid password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 294521999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 170,
+            "name": "Regis fill unlike re-password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:96"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 299208199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 171,
+            "name": "Regis submit Verify",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 770203399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 172,
+            "name": "Regis mismatch re-password",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "register;register_22-(abnormal)",
+        "keyword": "Scenario",
+        "line": 174,
+        "name": "Register_22 (abnormal)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 175,
+            "name": "On the register page",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5416867400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 176,
+            "name": "Regis fill valid name",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 361739100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 177,
+            "name": "Regis fill valid email",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 324028699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 178,
+            "name": "Regis fill valid password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 267330900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 179,
+            "name": "Regis fill unlike re-password",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:96"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 253079399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 180,
+            "name": "Regis submit Verify",
+            "match": {
+              "location": "features\\step_definitions\\registerSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 776995300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 181,
+            "name": "Regis mismatch re-password",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "register",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Register",
+    "tags": [],
+    "uri": "features\\register.feature"
+  }
+]
